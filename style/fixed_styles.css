@@ -1,0 +1,184 @@
+body {
+    background: linear-gradient(135deg, #06DCFB 0%, #8CEFFD 50%, #E6FCFF 100%);
+    margin: 0;
+    font-family: system-ui, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+    background: linear-gradient(to right, #FF0000, #FF00FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+p {
+    color: #4C4C4C;
+    font-size: 140%;
+    width: 80%;
+    line-height: 1.3;
+    margin: 20px auto;
+}
+
+blockquote {
+    width: 60%;
+    margin: 40px auto;
+    padding: 30px;
+    border-left: 5px solid #4682B4;
+    background-color: #F8F8FF;
+    font-style: italic;
+    color: #333333;
+}
+
+h2, h6 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+    background: linear-gradient(to right, #CC00FF, #CCCCFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+a {
+    margin-top: 30px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+    background: linear-gradient(to right, #FF0000, #FF6600);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.Ltt {
+    display: none;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid #ffcc00; 
+}
+
+img {
+    display: block;
+    margin: 30px auto;
+    max-width: 40%;
+    height: auto;
+    border-radius: 16px;
+}
+
+.gradient-word {
+    background: linear-gradient(to right, #F900F9, #FF4AFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.g1 {
+    background: linear-gradient(to right, #52FF20, #2DC800);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.journal-entry {
+    margin: 40px auto;
+    border-bottom: 1px dashed #cccccc;
+    padding-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.t {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    background-color: #F8F8FF;
+}
+
+header h1 {
+    font-style: italic;
+    border-left: 4px solid #ccc;
+    padding-left: 1em;
+    margin: 1em 0;
+}
+.l { color:gray}
+.op {
+            position: absolute;
+            color: #ff6b9d;
+            font-size: 20px;
+            animation: float 3s ease-in-out infinite;
+            opacity: 0.4;
+}
+.journal-entry {
+    padding: 30px 20px; 
+    margin: 40px auto;
+    width: 85%; 
+    background-color: white; 
+    border-radius: 12px;
+       box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+h1, h2, h3 {
+    text-align: center; 
+}
+h1, h2, h3, h6 {
+    font-weight: 700;
+     margin-top: 0;  
+}
+
+p {
+    font-weight: 500; 
+}.journal-entry {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); 
+    border-radius: 6px; 
+}
+img {
+    display: block; 
+    margin: 20px auto; 
+    max-width: 30%;
+    border-radius: 4px;
+
+}
+footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:20px;
+}    
+.header {
+    justify-content: space-evenly;  
+}
+.but1 {
+    padding: 12px 25px; 
+    font-size: 18px; 
+    background:linear-gradient(to right, #FF00FF , #FFCCFF);
+    -webkit-blackground-clip:text;
+    background-clip:text;
+    color:transparent;
+    border:none;
+    border-radius:25px; 
+    cursor:pointer; 
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.but1
+{
+    background-color:linear-gradient(to right, #FF512F, #DD2476);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+.but1:hover{
+    transform:translateY(2px); 
+    box-shadow:none;
+}
