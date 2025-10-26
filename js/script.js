@@ -21,3 +21,22 @@ function ltt() {
         document.getElementById("dieu-uoc").innerText = "Nhấn vào đây để xem Lời Cam Kết";
     }
 }
+const myCanvas = document.getElementById("myCanvas");
+const ctx = myCanvas.getContext("3d");
+ctx.fillRect(20, 20, 150, 100);
+ctx.fillStyle = "red";
+ctx.beginPath();
+ctx.moveTo(20, 20);
+ctx.lineTo(20, 100);
+ctx.lineTo(70, 100);
+ctx.stroke();
+
+const table = document.getElementById("tb1");
+ if (table) {
+    for (let i = 0; i < table.rows.length; i++) {
+    }for (let j = 0; j < table.rows[i].cells.length; j++) {
+    }
+    table.rows[i].cells[j].onclick = function() {
+        alert("Bạn đã nhấn vào ô có nội dung: " + this.innerHTML);
+    };
+}

@@ -8,7 +8,7 @@ h1 {
     text-align: center;
     font-size: 36px;
     margin-top: 50px;
-    background: linear-gradient(to right, #FF0000, #FF00FF);
+    background: linear-gradient(to right, #ff2d2d, #be19be);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -181,4 +181,42 @@ footer {
 .but1:hover{
     transform:translateY(2px); 
     box-shadow:none;
+}
+canvas {
+    display: block;
+    margin: 30px auto;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(224, 35, 35, 0.2);
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 12px;
+}
+.jtr {
+    background: linear-gradient(to right, #ffa0f2, #f24ec6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+.m {
+    background: linear-gradient(to right, #7df1f3, #4579f2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+.n {
+    background: linear-gradient(to right, #389328, #0cee23);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
 }
