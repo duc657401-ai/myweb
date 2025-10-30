@@ -220,3 +220,24 @@ th, td {
     color: transparent;
     font-weight: bold;
 }
+.tb1 {
+ width: 100%; 
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+}
+
+.th1, .td1 {
+    border: 1px solid #E0E0E0; 
+    padding: 10px 15px; 
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #FAFAFA; 
+}
+
+.th1 {
+    background-color: #F0F8FF; 
+    color: #4A4A4A; 
+    font-weight: bold;
+}
