@@ -4,8 +4,8 @@
     <title>Nhật kí học Code Web</title>    
     <link rel="stylesheet" href="style/fixed_styles.css">
 </head>
-<body>
-      <script src="js/script.js"></script>
+<body id="body1">
+     
       <header>
               <h1>  Hành Trình Học Code Và Build Web  </h1>
       </header>
@@ -38,7 +38,7 @@
 	              </article class="journal-entry">
                <article class="journal-entry">
             <h3> <span class="l">📅-</span>13/10/25</h3>
-	              <p> -Hôm nay, bắt đầu với khái niệm mới, <span class="m">JavaScript</span> ngôn ngữ lập trình cần thiết cho thiết kế web của tôi, nay tôi học được này nè  <button id="secc" class="but1" onclick="alert('Tò mò quá không tốt đâu!');">Chạm đi</button>  cũng khá hay ấy chứ.</p>
+	              <p> -Hôm nay, bắt đầu với khái niệm mới, <span class="m">JavaScript</span> ngôn ngữ lập trình cần thiết cho thiết kế web của tôi, nay tôi học được này nè  <button id="secc" class="but1" onclick="anNoiDungNhatKy()">Chạm đi</button>  cũng khá hay ấy chứ.</p>
 	              </article>
                <article class="journal-entry">
            <h3> <span class="l">📅-</span>15/10/25</h3>
@@ -75,72 +75,55 @@
                 </article>
                  <article class="journal-entry">
               <h3> <span class="l">📅-</span>30/10/25</h3>
-                 <p> -Tôi sẽ hoãn lại lịch học code của bản thân để tập trung ôn thi giữa học kì, sau khi kết thuchs chúng ta sẽ tiếp tục.</p>
+                 <p> -Tôi sẽ hoãn lại lịch học code của bản thân để tập trung ôn thi giữa học kì, sau khi kết thúch chúng ta sẽ tiếp tục.</p>
                  <p> *Lịch biểu học tập:<table id="trp">
                         <tr>
                             <th id="th1">Thứ</th>
                             <th id="th1">Môn học</th>
-                            <th id="th1">Thời gian</th>
+                          
                         </tr>
                         <tr>
                             <td id="td1">Thứ 2</td>
-                            <td id="td1">Tiếng Anh
+                            <td id="td1">Tiếng Anh(7:15 - 8:45)
                                 -
-                                Học Bài Trên Trường
-                            </td>
-                            <td id="td1">7:15 - 8:45
-                                ;
-                                9:00 - 10:30
+                                Học Bài Trên Trường(9:00 - 10:30)
                             </td>
                         
                         </tr>
                         <tr>
                             <td id="td1">Thứ 3</td>
-                            <td id="td1">Toán
+                            <td id="td1">Toán(5:30 - 7:00)
                                 -
-                                Code
+                                Code(7:15 - 9:00)
                                 -
-                                Học Bài Trên Trường
-                            </td>
-                            <td id="td1">5:30 - 7:00
-                                ;
-                                7:15 - 9:00
-                                ;
-                                9:00 - 10:30
-                            </td>
-                        </tr>
-                        <tr>
-                            <td id="td1">Thứ 4</td>
-                            <td id="td1">Anh
-                                -
-                                Bài Vở Trên Trường
-                            </td>
-                            <td id="td1">7:15 - 8:45
-                                ;
-                                9:00 - 10:30
+                                Học Bài Trên Trường(9:00 - 10:30)
                             </td>
 
                         </tr>
                         <tr>
+                            <td id="td1">Thứ 4</td>
+                            <td id="td1">Anh(7:15 - 8:45)
+                                -
+                                Bài Vở Trên Trường(9:00 - 10:30)
+                            </td>
+
+
+                        </tr>
+                        <tr>
                             <td id="td1">Thứ 5</td>
-                            <td id="td1">Toán
+                            <td id="td1">Toán(5:30 - 7:00)
                                 -
-                                Code
+                                Code(7:15 - 9:00)
                                 -
-                                Học Bài Trên Trường
+                                Học Bài Trên Trường(9:00 - 10:30)
                             </td>
-                            <td id="td1">5:30 - 7:00
-                                ;
-                                7:15 - 9:00
-                                ;
-                                9:00 - 10:30
-                            </td>
+
  
                         </tr>
                         <tr>
                             <td id="td1">Thứ 6</td>
-                            <td id="td1">Vật Lý</td>
-                            <td id="td1">7:30 - 9:00</td>
+                            <td id="td1">Vật Lý(7:30 - 9:00)</td>
+
                         </tr>
                         <tr>
                             <td id="td1">Thứ 7</td>
@@ -148,24 +131,27 @@
                         </tr>
                         <tr>
                             <td id="td1">Chủ Nhật</td>
-                            <td id="td1">Vật Lý
+                            <td id="td1">Vật Lý(5:00 - 7:00)
                                 -
-                                Code
+                                Code(7:15 - 9:00)
                                 -
-                                Bài Vở Trên Lớp
-                            </td>
-                            <td id="td1">5:00 - 7:00
-                                ;
-                                7:15 - 9:00
-                                ;
-                                9:00 - 10:30
+                                Bài Vở Trên Lớp(9:00 - 10:30)
                             </td>
 
                         </tr>    
                             </table>
                  </p>
                 </article>
-     <article class="journal-entry">          
+       <article class="journal-entry">
+           <h3> <span class="l">📅-</span>2/11/25</h3>
+                <p> -Hôm nay tôi tìm hiểu thêm về điều chỉnh <span class="m">HTML</span> với <span class="m">JavaScript</span> thông qua biến <span class="n">button</span> </p>
+                </article>
+        <aritical class="journal-entry">
+           <h3> <span class="l">📅-</span>5/11/25</h3>
+                <p> -Hôm nay tôi đã kết thúc chuỗi ngày làm bạn với Trang sau 10 năm. HAHA!! cõ lẽ do tính cách tôi vì quá lo cho cô ấy mà có lẽ tôi không biết tôi đã cố chấp rồi, do tôi ngu thôi thì tôi chịu.Nếu đọc được thì để tôi xin nói rằng:"Trang à, tôi xin lỗi vì sự cố chấp của tôi, bạn đúng tôi không nên xen vào quá sâu về chuyện tình cảm của bạn và sự muốn mở rộng quan hệ của bạn, tôi không xứng để gọi bạn với biệt danh "Thanh mai trúc mã", tôi cũng không xứng để nhận món quá bù sinh nhật và quà 19/11 của bạn, tôi vẫn se giữ lời hứa rằng tôi sẽ tặng bạn quà sinh nhật 16/2 nhưng tôi sẽ xin khất hưa bạn quà 8/3, tôi sẽ tặng bạn sớm nhất có thể để kết thúc chuỗi ngày làm bạn này. Tạm biệt và cảm ơn đã làm bạn với tôi Trang".</p>
+                </article>                 
+     <article class="journal-entry">     
+             
      <h6>Bài Học Về Sự Trưởng Thành</h6>
          <blockquote>  
                 <span class="t">  <p>"Không đi cùng nhau vào những ngày mưa,</p>
@@ -176,5 +162,6 @@
        <footer>
               <span class="g1"><p>Sự cố gắng của tôi sẽ được đền đáp chăng?</p></span>
        </footer>	     
-</body>
+      <script src="js/script.js"></script>
+    </body>
 </html>
